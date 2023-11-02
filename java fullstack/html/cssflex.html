@@ -1,0 +1,62 @@
+<html>
+    <head>
+	<style>
+	*{
+	padding:0px;
+	margin:0px;
+	}
+	    .parent{
+		display:flex;
+		background-color:skyblue;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:space-around;
+		height:500px;
+		align-items:start;
+	
+				
+		}
+		
+		.child{
+		background-color:pink;
+		padding:10px;
+		margin:20px;
+		border-radius:20px;
+		}
+		
+		.child:hover{
+		background-color:green;
+		text-decoration:underline;
+		}
+		a{
+		color:black;
+		text-decoration:none;
+		font-size:20px;
+		}
+		
+		#home{
+		align-self:center;
+		flex-grow:2;
+		order:2;
+	    text-align:center;
+		}
+		
+		#aboutus{
+		align-self:end;
+		order:3;
+		flex-grow:1;
+		}
+		
+		
+	</style>
+	</head>
+	<body>
+	    <div class="parent">
+		    <a href="background.jpeg" h1 id="home" class="child">Home</h1></a>
+			<a href="https://www.flipkart.com/" h1 id="aboutus" class="child">about us</h1></a>
+			<a href="https://www.flipkart.com/" h1 id="contact" class="child">contact</h1></a>
+			<a href="https://www.flipkart.com/" h1 id="careers" class="child">careers</h1></a>
+			<a href="https://www.flipkart.com/" h1 id="report" class="child">Report</h1></a>
+		</div>	
+	</body>
+</html>
